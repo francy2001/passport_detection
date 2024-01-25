@@ -1,1 +1,1 @@
-# passport_detection
+# Detection of false passports using CNN on PYNQ board

@@ -31,4 +31,7 @@ $ python pynqports.py img1 ... imgN
 with img1 ... imgN being a list of paths referring to images in a format supported by NumPy. 
 The relative code is present in `pynqports.py`.
 
+![m](https://github.com/francy2001/passport_detection/assets/131793582/a7028f2a-a29b-47f2-818e-8d660c692a14)
+
+
   

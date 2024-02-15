@@ -1,6 +1,6 @@
 # Detection of false passports using CNN on PYNQ board
 
-<h1> Di Francesca Bocconcelli, Riccardo Bovinelli e Lorenzo Riccardi</h1>
+<h3> Francesca Bocconcelli, Riccardo Bovinelli e Lorenzo Riccardi</h3>
 
 <h2> Introduction </h2>
 

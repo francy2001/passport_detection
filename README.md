@@ -24,7 +24,7 @@ In order to use the software developed in this project, a Python script with a c
 ```
 $ python pynqports.py img1 ... imgN
 ```
-with img_1 ... img_N being a list of paths referring to images in a format supported by NumPy. 
+with img1 ... imgN being a list of paths referring to images in a format supported by NumPy. 
 The relative code is present in `pynqports.py`.
 
   

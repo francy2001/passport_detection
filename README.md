@@ -9,6 +9,8 @@ In this repository, we will document the development of a command-line tool that
 The first phase of the project involved creating the dataset. Then, we proceeded to create and train a CNN which is able to recognaze genuine and forged characters. Upon achieving satisfactory results, the corresponding bitstream (and overlay for the PYNQ environment) was generated using the <ins cite="https://github.com/fastmachinelearning/hls4ml">hls4ml library</ins>. 
 Finally, deployment on the board, its testing, and the development of a command-line interface to utilize the CNN loaded onto the FPGA were carried out.
 
+![image](https://github.com/francy2001/passport_detection/assets/131793582/c3433073-e2c1-41a0-986e-d611e04a09e1)
+
 <h2>Dataset Creation</h2>
 
 To enable the network to distinguish between genuine and fake passports, we identified four classes of objects it had to recognize: background, normal, altered, and superimposed. For this purpose, three separate files were created, each implementing the creation of a dataset of background images (`dataset_creation/background_dataset.py`), normal characters (`dataset_creation/normal_char_dataset.py`), and fake characters (`dataset_creation/fake_char_dataset.py`). In the directory `dataset_creation/dataset`, examples of the output from the aforementioned codes are available.

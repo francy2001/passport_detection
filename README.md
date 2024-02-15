@@ -17,6 +17,8 @@ To enable the network to distinguish between genuine and fake passports, we iden
 
 Once the dataset was created, the network model was built, pruning was performed, and the network was trained. Subsequently, the network configuration suitable for deployment on the PYNQ was defined. Finally, the network was built using Vivado. In this phase, libraries provided by TensorFlow and hls4ml were extensively utilized.
 The relative code is present in `CNN_hls4ml.ipynb` and the obtained weight are in `pruned_cnn_model.h5`.
+The files to pass the CNN to PYNQ (for example, the bitstream file) are in `hls4ml_PYNQ/`. 
+
 
 <h2>Command-line interface</h2>
 
